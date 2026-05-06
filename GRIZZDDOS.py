@@ -84,7 +84,7 @@ def load_proxies(file_path):
 def main():
     banner()
     print(Fore.CYAN + "[1] UDP Flood\n[2] TCP SYN Flood\n[3] HTTP Flood\n[4] HTTP Flood via Proxy")
-    method = input(Fore.PURPLE + "Select attack type >> ")
+    method = input(Fore.MAGENTA + "Select attack type >> ")
     target = input("Target IP or URL: ")
     port = int(input("Port (skip for HTTP): ") or 80)
     duration = int(input("Attack duration (seconds): "))
